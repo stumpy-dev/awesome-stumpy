@@ -6,7 +6,7 @@ Awesome STUMPY documentation
    :maxdepth: 2
    :caption: Contents:
 
-   tutorials
+   how_to_find_top_k_motifs
 
 .. include:: ../README.rst
 
@@ -14,9 +14,11 @@ Awesome STUMPY documentation
 
 .. grid:: 3
 
-    .. grid-item-card::  Card Title 1
+    .. grid-item-card:: Find motifs with a top-k matrix profile
+        :link: how_to_find_top_k_motifs
+        :link-type: doc
 
-        Card Body 1
+        Rank subsequences by their average distance to several neighbors.
 
     .. grid-item-card::  Card Title 2
         :link: https://example.com
